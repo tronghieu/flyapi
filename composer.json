@@ -1,5 +1,5 @@
 {
-    "name": "tronghieu/FlyAPI",
+    "name": "tronghieu/flyapi",
     "type": "library",
     "description": "Flywheel API lib for server",
     "keywords": ["framework", "API"],
