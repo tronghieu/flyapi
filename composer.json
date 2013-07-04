@@ -11,5 +11,12 @@
             "name": "Luu Trong Hieu",
             "email": "tronghieu.luu@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=5.3.3",
+    },
+    "autoload": {
+        "psr-0": {"FlyApi": "/"}
+    },
+    "minimum-stability": "1.0"
 }
