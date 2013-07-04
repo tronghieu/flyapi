@@ -18,5 +18,5 @@
     "autoload": {
         "psr-0": {"FlyApi": "/"}
     },
-    "minimum-stability": "1.0-stable"
+    "minimum-stability": "stable"
 }
