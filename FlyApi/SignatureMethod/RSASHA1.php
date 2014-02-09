@@ -2,6 +2,8 @@
 namespace FlyApi\SignatureMethod;
 
 
+use FlyApi\Consumer;
+use FlyApi\Request;
 use FlyApi\SignatureMethod;
 
 abstract class RSASHA1 extends SignatureMethod {

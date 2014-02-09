@@ -3,7 +3,10 @@
 namespace FlyApi\SignatureMethod;
 
 
+use FlyApi\Consumer;
+use FlyApi\Request;
 use FlyApi\SignatureMethod;
+use FlyApi\Util;
 
 class HMACSHA1 extends SignatureMethod {
     function getName() {
