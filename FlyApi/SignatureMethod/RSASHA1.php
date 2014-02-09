@@ -1,8 +1,10 @@
 <?php
-namespace FlyApi;
+namespace FlyApi\SignatureMethod;
 
 
-abstract class SignatureMethod_RSA_SHA1 extends SignatureMethod {
+use FlyApi\SignatureMethod;
+
+abstract class RSASHA1 extends SignatureMethod {
     public function getName() {
         return "RSA-SHA1";
     }

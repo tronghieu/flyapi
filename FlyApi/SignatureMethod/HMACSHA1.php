@@ -1,9 +1,11 @@
 <?php
 
-namespace FlyApi;
+namespace FlyApi\SignatureMethod;
 
 
-class SignatureMethod_HMAC_SHA1 extends SignatureMethod {
+use FlyApi\SignatureMethod;
+
+class HMACSHA1 extends SignatureMethod {
     function getName() {
         return "HMAC-SHA1";
     }

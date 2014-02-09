@@ -83,7 +83,7 @@ class Request {
     }
 
     public function signRequest(SignatureMethod $signature_method, $consumer) {
-        /* @var SignatureMethod_RSA_SHA1 $signature */
+        /* @var \FlyApi\SignatureMethod $signature */
         $this->setParameter(
             "signature_method",
             $signature_method->getName(),
@@ -95,7 +95,7 @@ class Request {
     }
 
     public function buildSignature($signature_method, $consumer) {
-        /* @var SignatureMethod_RSA_SHA1 $signature_method */
+        /* @var \FlyApi\SignatureMethod $signature_method */
         $signature = $signature_method->buildSignature($this, $consumer);
         return $signature;
     }
